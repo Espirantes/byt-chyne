@@ -61,7 +61,7 @@ export const photos: { src: string; alt: string }[] = [
 ];
 
 export const contact = {
-  name: "Dominik Vána",
+  name: "Dominik Váňa",
   phone: "+420 733 501 957",
   email: "dominik@digitalmakers.cz",
 };
