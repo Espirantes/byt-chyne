@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="relative h-[85vh] min-h-[500px] w-full md:h-screen">
       <Image
-        src="/photos/hero.webp"
+        src="/photos/byt-chyne-3-1.jpg"
         alt={apartment.title}
         fill
         preload
