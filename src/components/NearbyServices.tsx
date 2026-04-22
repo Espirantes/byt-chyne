@@ -3,16 +3,14 @@
 import { useRef } from "react";
 
 const services = [
-  { icon: "🏫", name: "Základní škola", distance: "300 m", time: "4 min pěšky" },
-  { icon: "👶", name: "Mateřská škola", distance: "400 m", time: "5 min pěšky" },
-  { icon: "🛒", name: "Billa", distance: "700 m", time: "9 min pěšky" },
-  { icon: "🚂", name: "Vlak. zastávka", distance: "500 m", time: "28 min → Smíchov" },
-  { icon: "🚌", name: "Bus zastávka", distance: "300 m", time: "16 min → Zličín" },
-  { icon: "📮", name: "Pošta", distance: "600 m", time: "8 min pěšky" },
-  { icon: "🍽️", name: "Restaurace", distance: "200 m", time: "3 min pěšky" },
-  { icon: "🏊", name: "Koupaliště", distance: "1,2 km", time: "15 min pěšky" },
-  { icon: "🛍️", name: "OC Metropole", distance: "6 km", time: "9 min autem" },
-  { icon: "✈️", name: "Letiště V. Havla", distance: "12 km", time: "15 min autem" },
+  { icon: "👶", name: "Mateřská škola", distance: "200 m", time: "3 min pěšky" },
+  { icon: "🛒", name: "Billa", distance: "550 m", time: "7 min pěšky" },
+  { icon: "📮", name: "Pošta", distance: "700 m", time: "9 min pěšky" },
+  { icon: "🚂", name: "Vlak Chýně", distance: "900 m", time: "28 min → Smíchov" },
+  { icon: "🚌", name: "Bus zastávka", distance: "750 m", time: "16 min → Zličín" },
+  { icon: "🏫", name: "Základní škola", distance: "1,1 km", time: "14 min pěšky" },
+  { icon: "🛍️", name: "OC Metropole", distance: "5 km", time: "9 min autem" },
+  { icon: "✈️", name: "Letiště V. Havla", distance: "7 km", time: "15 min autem" },
 ];
 
 export default function NearbyServices() {
