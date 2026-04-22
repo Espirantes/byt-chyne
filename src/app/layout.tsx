@@ -36,20 +36,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="cs" className={`${inter.variable} ${playfair.variable}`}>
-      <head>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-CFDSJ9PLGP"
-          strategy="afterInteractive"
-        />
-        <Script id="gtag-init" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-CFDSJ9PLGP');
-          `}
-        </Script>
-      </head>
+      {process.env.NODE_ENV === "production" && (
+        <head>
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-CFDSJ9PLGP"
+            strategy="afterInteractive"
+          />
+          <Script id="gtag-init" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-CFDSJ9PLGP');
+            `}
+          </Script>
+        </head>
+      )}
       <body className="font-sans antialiased">{children}</body>
     </html>
   );
