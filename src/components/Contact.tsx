@@ -11,7 +11,7 @@ export default function Contact() {
   return (
     <SectionWrapper id="kontakt">
       <h2 className="font-heading text-2xl font-bold md:text-3xl">Kontakt</h2>
-      <div className="mt-8 grid gap-8 md:grid-cols-2">
+      <div className="mt-8 grid gap-6 md:gap-8 md:grid-cols-2">
         {/* Contact info */}
         <div>
           <div className="rounded-xl border border-gray-100 p-6">

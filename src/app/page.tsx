@@ -28,7 +28,7 @@ export default function Home() {
         </div>
 
         {/* Sticky sidebar - desktop only */}
-        <div className="w-80 shrink-0">
+        <div className="hidden w-80 shrink-0 lg:block">
           <ContactSidebar />
         </div>
       </div>

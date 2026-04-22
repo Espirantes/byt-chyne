@@ -14,7 +14,7 @@ export default function MonthlyCosts() {
       <h2 className="font-heading text-2xl font-bold md:text-3xl">
         Měsíční náklady
       </h2>
-      <div className="mt-6 grid gap-3 sm:grid-cols-3">
+      <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         <div className="rounded-lg border border-gray-100 p-5 text-center">
           <p className="text-xs text-muted">Fond oprav + služby + stočné</p>
           <p className="mt-1 text-xl font-bold">3 300 Kč</p>
