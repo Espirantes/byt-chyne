@@ -5,6 +5,7 @@ import Parameters from "@/components/Parameters";
 import Description from "@/components/Description";
 import FloorPlan from "@/components/FloorPlan";
 import MonthlyCosts from "@/components/MonthlyCosts";
+import EnergyRating from "@/components/EnergyRating";
 import LocationMap from "@/components/LocationMap";
 import Contact from "@/components/Contact";
 import ContactSidebar from "@/components/ContactSidebar";
@@ -25,6 +26,7 @@ export default function Home() {
           <Description />
           <FloorPlan />
           <MonthlyCosts />
+          <EnergyRating />
         </div>
 
         {/* Sticky sidebar - desktop only */}

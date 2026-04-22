@@ -17,7 +17,7 @@ export const parameters: { label: string; value: string }[] = [
   { label: "Parkování", value: "1× stání u domu" },
   { label: "Vlastnictví", value: "Osobní" },
   { label: "Vytápění", value: "Elektrokotel" },
-  { label: "PENB", value: "C" },
+  { label: "PENB", value: "E" },
   { label: "Výtah", value: "Ano" },
 ];
 
@@ -64,6 +64,24 @@ export const contact = {
   name: "Dominik Vána",
   phone: "+420 733 501 957",
   email: "dominik@digitalmakers.cz",
+};
+
+export const penb = {
+  classification: "E" as const,
+  primaryEnergy: 172, // kWh/m².rok
+  totalDeliveredEnergy: 66, // kWh/m².rok — třída B
+  buildingType: "Bytový dům",
+  address: "Příhodova 936, 253 03 Chýně",
+  validUntil: "04.08.2033",
+  indicators: [
+    { label: "Celková dodaná energie", value: 66, unit: "kWh/(m².rok)", grade: "B" },
+    { label: "Vytápění", value: 33, unit: "kWh/(m².rok)", grade: "C" },
+    { label: "Příprava teplé vody", value: 25, unit: "kWh/(m².rok)", grade: "C" },
+    { label: "Osvětlení", value: 7, unit: "kWh/(m².rok)", grade: "C" },
+    { label: "Chlazení", value: 1, unit: "kWh/(m².rok)", grade: "" },
+  ],
+  heatTransferCoefficient: 0.37, // W/(m².K) — třída C
+  heatingDemand: 31, // kWh/(m².rok)
 };
 
 export const mapEmbedUrl =
