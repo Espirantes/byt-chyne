@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import ImageCarousel from "@/components/ImageCarousel";
 import Parameters from "@/components/Parameters";
 import Description from "@/components/Description";
+import FloorPlan from "@/components/FloorPlan";
 import MonthlyCosts from "@/components/MonthlyCosts";
 import LocationMap from "@/components/LocationMap";
 import Contact from "@/components/Contact";
@@ -22,6 +23,7 @@ export default function Home() {
         <div className="min-w-0 flex-1">
           <Parameters />
           <Description />
+          <FloorPlan />
           <MonthlyCosts />
         </div>
 
