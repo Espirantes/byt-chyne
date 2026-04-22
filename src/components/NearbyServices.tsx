@@ -6,7 +6,7 @@ const services = [
   { icon: "👶", name: "Mateřská škola", distance: "200 m", time: "3 min pěšky" },
   { icon: "🛒", name: "Billa", distance: "750 m", time: "10 min pěšky" },
   { icon: "📮", name: "Pošta", distance: "700 m", time: "9 min pěšky" },
-  { icon: "🚂", name: "Vlak Chýně jih", distance: "450 m", time: "28 min → Smíchov" },
+  { icon: "🚂", name: "Vlak Chýně", distance: "1,0 km", time: "14 min pěšky" },
   { icon: "🚌", name: "Bus zastávka", distance: "750 m", time: "16 min → Zličín" },
   { icon: "🏫", name: "ZŠ Bolzanova", distance: "250 m", time: "3 min pěšky" },
   { icon: "🛍️", name: "OC Metropole", distance: "5 km", time: "9 min autem" },
