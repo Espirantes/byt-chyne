@@ -16,14 +16,15 @@ export const parameters: { label: string; value: string }[] = [
   { label: "Sklep", value: "Ano" },
   { label: "Parkování", value: "2× stání u domu" },
   { label: "Vlastnictví", value: "Osobní" },
-  { label: "Vytápění", value: "Elektrokotel" },
+  { label: "Vytápění", value: "Elektrokotel + klimatizace" },
+  { label: "Klimatizace", value: "Ano (obývací pokoj s kuchyní)" },
   { label: "PENB", value: "E" },
   { label: "Výtah", value: "Ano" },
 ];
 
 export const description = `Prodej krásného, vzdušného mezonetového bytu o dispozici 4+kk a užitné ploše 80 m², který se nachází ve 4. (posledním) podlaží novostavby z roku 2019, na ulici Příhodova v Chýni.
 
-Bytová jednotka sestává z předsíně, koupelny s WC, pokoje a prostorného obývacího pokoje s kuchyňským koutem, ze kterého vede vstup na balkon. Po schodech se dostaneme do druhého podlaží bytu, kde se nachází dvě menší místnosti, které mohou sloužit jako ložnice, dětský pokoj nebo pracovna.
+Bytová jednotka sestává z předsíně, koupelny s WC, pokoje a prostorného obývacího pokoje s kuchyňským koutem s klimatizací, ze kterého vede vstup na balkon. Po schodech se dostaneme do druhého podlaží bytu, kde se nachází dvě menší místnosti, které mohou sloužit jako ložnice, dětský pokoj nebo pracovna.
 
 K bytu náleží také sklep a dvě parkovací stání vedle domu. Měsíční náklady činí 3 300 Kč (fond oprav, služby, stočné) + 3 500 Kč za elektřinu — včetně vytápění a ohřevu vody, které jsou řešeny elektrokotlem.
 
