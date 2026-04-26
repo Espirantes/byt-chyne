@@ -33,27 +33,32 @@ V okolí se nachází veškerá občanská vybavenost — škola, dvě školky, 
 Bytová jednotka je v osobním vlastnictví a lze financovat hypotečním úvěrem.`;
 
 export const photos: { src: string; alt: string }[] = [
-  { src: "/photos/byt-chyne-1.jpg", alt: "Obývací pokoj s jídelním koutem a kuchyní" },
-  { src: "/photos/byt-chyne-2.jpg", alt: "Kuchyně s jídelnou a schodištěm do podkroví" },
-  { src: "/photos/byt-chyne-3-1.jpg", alt: "Kuchyňská linka s jídelním stolem" },
-  { src: "/photos/byt-chyne-4.jpg", alt: "Obývací pokoj — pohovka s TV" },
-  { src: "/photos/byt-chyne-5.jpg", alt: "Kuchyně se schodištěm do podkroví" },
-  { src: "/photos/byt-chyne-6.jpg", alt: "Obývací pokoj s kuchyní — celkový pohled" },
-  { src: "/photos/byt-chyne-7.jpg", alt: "Obývací pokoj se schodištěm" },
-  { src: "/photos/byt-chyne-8.jpg", alt: "Kuchyňská linka — detail" },
-  { src: "/photos/byt-chyne-9.jpg", alt: "Dětský pokoj" },
-  { src: "/photos/byt-chyne-10.jpg", alt: "Dětský pokoj — druhý pohled" },
+  // Obývací pokoj
+  { src: "/photos/novy-4-obyvak.jpg", alt: "Obývací pokoj — pohovka s TV" },
+  { src: "/photos/novy-5-obyvak-detail.jpg", alt: "Obývací pokoj — detail" },
+  // Kuchyně s jídelnou
+  { src: "/photos/novy-3-jidelna.jpg", alt: "Jídelna se schodištěm do podkroví" },
+  { src: "/photos/novy-1-kuchyne.jpg", alt: "Kuchyně s klimatizací a jídelním stolem" },
+  { src: "/photos/novy-2-kuchyne-detail.jpg", alt: "Kuchyňská linka — detail" },
+  // Předsíň
+  { src: "/photos/novy-9-predsin.jpg", alt: "Předsíň" },
+  // Dětský pokoj
+  { src: "/photos/novy-6-detsky-pokoj.jpg", alt: "Dětský pokoj" },
+  { src: "/photos/novy-7-detsky-pokoj-2.jpg", alt: "Dětský pokoj — druhý pohled" },
+  { src: "/photos/novy-8-detsky-pokoj-3.jpg", alt: "Dětský pokoj — třetí pohled" },
+  // Koupelna
   { src: "/photos/byt-chyne-11.jpg", alt: "Koupelna s vanou a pračkou" },
   { src: "/photos/byt-chyne-12.jpg", alt: "Koupelna — vana a umyvadlo" },
-  { src: "/photos/byt-chyne-13.jpg", alt: "Předsíň — vstupní dveře" },
-  { src: "/photos/byt-chyne-14.jpg", alt: "Předsíň se schodištěm" },
+  // Podkroví
   { src: "/photos/byt-chyne-15.jpg", alt: "Pracovna v podkroví" },
   { src: "/photos/byt-chyne-16.jpg", alt: "Pracovna v podkroví — širší pohled" },
   { src: "/photos/byt-chyne-17.jpg", alt: "Schodiště do podkroví" },
   { src: "/photos/byt-chyne-18.jpg", alt: "Herna v podkroví" },
   { src: "/photos/byt-chyne-19.jpg", alt: "Herna v podkroví — druhý pohled" },
+  // Balkon
   { src: "/photos/byt-chyne-20.jpg", alt: "Balkon — výhled na okolí" },
   { src: "/photos/byt-chyne-21.jpg", alt: "Balkon — druhý pohled" },
+  // Společné prostory a exteriér
   { src: "/photos/byt-chyne-22.jpg", alt: "Společné prostory — chodba" },
   { src: "/photos/byt-chyne-23.jpg", alt: "Výtah" },
   { src: "/photos/byt-chyne-24.jpg", alt: "Bytový dům — pohled zepředu" },
