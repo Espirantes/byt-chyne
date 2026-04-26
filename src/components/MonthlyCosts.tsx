@@ -27,7 +27,7 @@ export default function MonthlyCosts() {
           <p className="text-xs font-medium text-primary">Celkem měsíčně</p>
           <p className="mt-1 text-xl font-bold text-accent">6 800 Kč</p>
           <p className="mt-0.5 text-[10px] text-muted">
-            Vytápění a ohřev vody elektrokotlem
+            Vytápění přímotopy, ohřev vody bojlerem
           </p>
         </div>
       </div>

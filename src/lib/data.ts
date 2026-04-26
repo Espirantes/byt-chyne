@@ -16,7 +16,7 @@ export const parameters: { label: string; value: string }[] = [
   { label: "Sklep", value: "Ano" },
   { label: "Parkování", value: "2× stání u domu" },
   { label: "Vlastnictví", value: "Osobní" },
-  { label: "Vytápění", value: "Elektrokotel + klimatizace" },
+  { label: "Vytápění", value: "Elektrické přímotopy + klimatizace" },
   { label: "Klimatizace", value: "Ano (obývací pokoj s kuchyní)" },
   { label: "PENB", value: "E" },
   { label: "Výtah", value: "Ano" },
@@ -26,7 +26,7 @@ export const description = `Prodej krásného, vzdušného mezonetového bytu o 
 
 Bytová jednotka sestává z předsíně, koupelny s WC, pokoje a prostorného obývacího pokoje s kuchyňským koutem s klimatizací, ze kterého vede vstup na balkon. Po schodech se dostaneme do druhého podlaží bytu, kde se nachází dvě menší místnosti, které mohou sloužit jako ložnice, dětský pokoj nebo pracovna.
 
-K bytu náleží také sklep a dvě parkovací stání vedle domu. Měsíční náklady činí 3 300 Kč (fond oprav, služby, stočné) + 3 500 Kč za elektřinu — včetně vytápění a ohřevu vody, které jsou řešeny elektrokotlem.
+K bytu náleží také sklep a dvě parkovací stání vedle domu. Měsíční náklady činí 3 300 Kč (fond oprav, služby, stočné) + 3 500 Kč za elektřinu — vytápění je řešeno elektrickými přímotopy a klimatizací, ohřev vody elektrickým bojlerem.
 
 V okolí se nachází veškerá občanská vybavenost — škola, dvě školky, pošta, Billa, restaurace, pivní lázně, přírodní koupaliště a další. Je zde skvělá dopravní dostupnost. 500 metrů od domu se nachází vlaková zastávka, ze které dojedete na Smíchovské nádraží za 28 minut. 300 m od domu leží autobusová zastávka, ze které se dostanete za 16 minut na stanici metra Zličín. Autem je to 9 minut do OC Metropole Zličín nebo 15 minut na Letiště Václava Havla. Hned za domem se nachází nové Chýňské náměstí.
 
