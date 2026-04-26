@@ -5,17 +5,19 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import Lightbox from "yet-another-react-lightbox";
+import Captions from "yet-another-react-lightbox/plugins/captions";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "yet-another-react-lightbox/styles.css";
+import "yet-another-react-lightbox/plugins/captions.css";
 import { photos } from "@/lib/data";
 
 export default function ImageCarousel() {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
 
-  const slides = photos.map((p) => ({ src: p.src, alt: p.alt }));
+  const slides = photos.map((p) => ({ src: p.src, alt: p.alt, title: p.alt }));
 
   return (
     <section id="galerie" className="bg-gray-100">
@@ -76,6 +78,7 @@ export default function ImageCarousel() {
         close={() => setLightboxOpen(false)}
         index={lightboxIndex}
         slides={slides}
+        plugins={[Captions]}
       />
     </section>
   );
